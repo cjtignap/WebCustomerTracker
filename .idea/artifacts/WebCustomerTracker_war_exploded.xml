@@ -20,6 +20,7 @@
           <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
           <element id="library" level="project" name="com.mchange:c3p0:0.9.5.2" />
           <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="org.aspectj:aspectjweaver:1.9.6" />
         </element>
       </element>
     </root>

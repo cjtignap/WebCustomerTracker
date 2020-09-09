@@ -1,8 +1,8 @@
 package com.cjtignap.springdemo.controller;
 
-import com.cjtignap.springdemo.DAO.CustomerDAO;
 import com.cjtignap.springdemo.Service.CustomerService;
 import com.cjtignap.springdemo.entity.Customer;
+import org.springframework.batch.core.annotation.BeforeChunk;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +16,7 @@ public class CustomerController {
 
     @Autowired
     CustomerService customerServiceImpl;
-
+    
     @GetMapping(value = "/list")
     public String listCustomer(Model model){
 
